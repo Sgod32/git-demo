@@ -1,0 +1,54 @@
+2026-10-23 18:52:34.171 [info] [main] 日志级别: Info
+2026-10-23 18:52:34.171 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
+2026-10-23 18:52:34.171 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files (x86)\Git\cmd\git.exe"
+2026-10-23 18:52:34.171 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
+2026-10-23 18:52:34.171 [info] [main] 正在验证在以下位置找到的 git: "C:\Users\Lenovo\AppData\Local\Programs\Git\cmd\git.exe"
+2026-10-23 18:52:35.335 [info] [main] 正在验证在以下位置找到的 git: "C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\bin\git.exe"
+2026-10-23 18:52:35.445 [info] [main] 使用来自 "C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\bin\git.exe" 的 git "2.56.0.windows.2"
+2026-10-23 18:52:35.446 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-23 18:52:35.604 [info] > git rev-parse --show-toplevel [114ms]
+2026-10-23 18:52:35.823 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [148ms]
+2026-10-23 18:52:35.834 [info] [Model][openRepository] Opened repository (path): c:\Users\Lenovo\Desktop\git-demo
+2026-10-23 18:52:35.834 [info] [Model][openRepository] Opened repository (real path): c:\Users\Lenovo\Desktop\git-demo
+2026-10-23 18:52:35.834 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-23 18:52:35.861 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-23 18:52:35.959 [info] > git config --get --local core.virtualfilesystem [100ms]
+2026-10-23 18:52:35.960 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-23 18:52:35.985 [info] > git config --get commit.template [101ms]
+2026-10-23 18:52:36.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [91ms]
+2026-10-23 18:52:36.133 [info] > git status -z -uall [102ms]
+2026-10-23 18:52:36.158 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [103ms]
+2026-10-23 18:52:36.283 [info] > git check-ignore -v -z --stdin [127ms]
+2026-10-23 18:52:36.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [153ms]
+2026-10-23 18:52:36.385 [info] > git config --get commit.template [144ms]
+2026-10-23 18:52:36.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [153ms]
+2026-10-23 18:52:36.475 [info] > git show --textconv :index.html [164ms]
+2026-10-23 18:52:36.475 [info] > git ls-files --stage -- index.html [135ms]
+2026-10-23 18:52:36.503 [info] > git config --get --local branch.main.vscode-merge-base [136ms]
+2026-10-23 18:52:36.503 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-23 18:52:36.545 [info] > git check-ignore -v -z --stdin [124ms]
+2026-10-23 18:52:36.584 [info] > git status -z -uall [138ms]
+2026-10-23 18:52:36.607 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [134ms]
+2026-10-23 18:52:36.664 [info] > git cat-file -s 4a1770f0acce42fa0cee730b58fc230be6edcc9d [163ms]
+2026-10-23 18:52:36.667 [info] > git reflog main --grep-reflog=branch: Created from *. [138ms]
+2026-10-23 18:52:36.771 [info] > git config --get commit.template [109ms]
+2026-10-23 18:52:36.802 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [113ms]
+2026-10-23 18:52:36.802 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-10-23 18:52:36.802 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-10-23 18:52:36.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [109ms]
+2026-10-23 18:52:36.869 [info] > git blame --root --incremental fbf2c8011039030828cb8a3294ccf14687f9907b -- index.html [127ms]
+2026-10-23 18:52:36.940 [info] > git status -z -uall [96ms]
+2026-10-23 18:52:36.960 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [92ms]
+2026-10-23 18:52:47.609 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [99ms]
+2026-10-23 18:52:50.042 [info] > git push -u origin main [246ms]
+2026-10-23 18:52:50.042 [info] fatal: unable to access 'https://github.com/Sgod32/git-demo.git/': schannel: next InitializeSecurityContext failed: CRYPT_E_NO_REVOCATION_CHECK (0x80092012) - ���������޷����֤���Ƿ������
+2026-10-23 18:52:50.153 [info] > git config --get commit.template [89ms]
+2026-10-23 18:52:50.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [92ms]
+2026-10-23 18:52:50.303 [info] > git status -z -uall [105ms]
+2026-10-23 18:52:50.319 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [98ms]
+2026-10-23 18:54:03.860 [info] > git push -u origin main [235ms]
+2026-10-23 18:54:03.860 [info] fatal: unable to access 'https://github.com/Sgod32/git-demo.git/': schannel: next InitializeSecurityContext failed: CRYPT_E_NO_REVOCATION_CHECK (0x80092012) - ���������޷����֤���Ƿ������
+2026-10-23 18:54:03.983 [info] > git config --get commit.template [99ms]
+2026-10-23 18:54:04.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [97ms]
+2026-10-23 18:54:04.139 [info] > git status -z -uall [113ms]
+2026-10-23 18:54:04.162 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [106ms]
