@@ -1,74 +1,89 @@
-2026-10-23 19:35:03.132 [info] [main] 日志级别: Info
-2026-10-23 19:35:03.132 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
-2026-10-23 19:35:03.133 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files (x86)\Git\cmd\git.exe"
-2026-10-23 19:35:03.133 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
-2026-10-23 19:35:03.133 [info] [main] 正在验证在以下位置找到的 git: "C:\Users\Lenovo\AppData\Local\Programs\Git\cmd\git.exe"
-2026-10-23 19:35:04.391 [info] [main] 正在验证在以下位置找到的 git: "C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\bin\git.exe"
-2026-10-23 19:35:04.546 [info] [main] 使用来自 "C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\bin\git.exe" 的 git "2.56.0.windows.2"
-2026-10-23 19:35:04.546 [info] [Model][doInitialScan] Initial repository scan started
-2026-10-23 19:35:04.725 [info] > git rev-parse --show-toplevel [144ms]
-2026-10-23 19:35:04.736 [info] > git rev-parse --show-toplevel [168ms]
-2026-10-23 19:35:04.950 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [206ms]
-2026-10-23 19:35:04.961 [info] [Model][openRepository] Opened repository (path): c:\Users\Lenovo\Desktop\git-demo
-2026-10-23 19:35:04.962 [info] [Model][openRepository] Opened repository (real path): c:\Users\Lenovo\Desktop\git-demo
-2026-10-23 19:35:04.962 [info] [Model][openRepository] Opened repository (kind): repository
-2026-10-23 19:35:04.970 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
-2026-10-23 19:35:05.147 [info] > git config --get --local core.virtualfilesystem [177ms]
-2026-10-23 19:35:05.147 [warning] [Git][config] git config failed: Failed to execute git
-2026-10-23 19:35:05.152 [info] > git config --get commit.template [176ms]
-2026-10-23 19:35:05.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [170ms]
-2026-10-23 19:35:05.318 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [144ms]
-2026-10-23 19:35:05.341 [info] > git status -z -uall [174ms]
-2026-10-23 19:35:05.466 [info] > git check-ignore -v -z --stdin [149ms]
-2026-10-23 19:35:05.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [205ms]
-2026-10-23 19:35:05.590 [info] > git config --get commit.template [214ms]
-2026-10-23 19:35:05.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [220ms]
-2026-10-23 19:35:05.671 [info] > git show --textconv :index.html [192ms]
-2026-10-23 19:35:05.696 [info] > git ls-files --stage -- index.html [208ms]
-2026-10-23 19:35:05.734 [info] > git config --get --local branch.main.vscode-merge-base [166ms]
-2026-10-23 19:35:05.735 [warning] [Git][config] git config failed: Failed to execute git
-2026-10-23 19:35:05.814 [info] > git status -z -uall [196ms]
-2026-10-23 19:35:05.823 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [198ms]
-2026-10-23 19:35:05.895 [info] > git cat-file -s 4a1770f0acce42fa0cee730b58fc230be6edcc9d [192ms]
-2026-10-23 19:35:05.945 [info] > git reflog main --grep-reflog=branch: Created from *. [202ms]
-2026-10-23 19:35:06.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [195ms]
-2026-10-23 19:35:06.039 [info] > git config --get commit.template [204ms]
-2026-10-23 19:35:06.192 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [240ms]
-2026-10-23 19:35:06.193 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
-2026-10-23 19:35:06.193 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
-2026-10-23 19:35:06.230 [info] > git check-ignore -v -z --stdin [251ms]
-2026-10-23 19:35:06.233 [info] > git check-ignore -v -z --stdin [263ms]
-2026-10-23 19:35:06.253 [info] > git blame --root --incremental 38c30e17f511911848f9ef13adce2c6a42d47301 -- index.html [259ms]
-2026-10-23 19:35:06.276 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [219ms]
-2026-10-23 19:35:06.279 [info] > git status -z -uall [232ms]
-2026-10-23 19:35:06.354 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [148ms]
-2026-10-23 19:35:15.490 [info] > git add -A -- . [122ms]
-2026-10-23 19:35:15.726 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [230ms]
-2026-10-23 19:35:15.840 [info] > git config --get commit.template [108ms]
-2026-10-23 19:35:15.981 [info] > git config --get commit.template [133ms]
-2026-10-23 19:35:15.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [139ms]
-2026-10-23 19:35:16.150 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [142ms]
-2026-10-23 19:35:16.169 [info] > git status -z -uall [167ms]
-2026-10-23 19:35:16.395 [info] > git blame --root --incremental c4f3f04d7999b9eead68738aab0f3a078ea01637 -- index.html [208ms]
-2026-10-23 19:35:16.410 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [212ms]
-2026-10-23 19:35:16.424 [info] > git config --get commit.template [201ms]
-2026-10-23 19:35:16.455 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [226ms]
-2026-10-23 19:35:16.663 [info] > git status -z -uall [201ms]
-2026-10-23 19:35:16.679 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [209ms]
-2026-10-23 19:35:16.693 [info] > git check-ignore -v -z --stdin [205ms]
-2026-10-23 19:35:16.712 [info] > git config --get --local remote.origin.url [192ms]
-2026-10-23 19:35:16.940 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c4f3f04d7999b9eead68738aab0f3a078ea01637 -- [216ms]
-2026-10-23 19:35:17.052 [info] > git ls-files --stage -- index.html [167ms]
-2026-10-23 19:35:17.213 [info] > git cat-file -s 4a1770f0acce42fa0cee730b58fc230be6edcc9d [154ms]
-2026-10-23 19:35:17.355 [info] > git show --textconv :index.html [134ms]
-2026-10-23 19:35:20.009 [info] > git push -u origin main [1337ms]
-2026-10-23 19:35:20.010 [info]       0 [main] sh (12776) C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\usr\bin\sh.exe: *** fatal error - couldn't create signal pipe, Win32 error 5
-      0 [main] sh (16996) C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\usr\bin\sh.exe: *** fatal error - couldn't create signal pipe, Win32 error 5
+2026-10-23 20:17:55.754 [info] [main] 日志级别: Info
+2026-10-23 20:17:55.754 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
+2026-10-23 20:17:55.754 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files (x86)\Git\cmd\git.exe"
+2026-10-23 20:17:55.754 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
+2026-10-23 20:17:55.754 [info] [main] 正在验证在以下位置找到的 git: "C:\Users\Lenovo\AppData\Local\Programs\Git\cmd\git.exe"
+2026-10-23 20:17:56.041 [info] [main] 正在验证在以下位置找到的 git: "C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\bin\git.exe"
+2026-10-23 20:17:56.334 [info] [main] 使用来自 "C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\bin\git.exe" 的 git "2.56.0.windows.2"
+2026-10-23 20:17:56.335 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-23 20:17:57.931 [info] > git rev-parse --show-toplevel [1573ms]
+2026-10-23 20:17:58.303 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [206ms]
+2026-10-23 20:17:58.438 [info] [Model][openRepository] Opened repository (path): c:\Users\Lenovo\Desktop\git-demo
+2026-10-23 20:17:58.438 [info] [Model][openRepository] Opened repository (real path): c:\Users\Lenovo\Desktop\git-demo
+2026-10-23 20:17:58.438 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-23 20:17:58.450 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-23 20:17:58.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [318ms]
+2026-10-23 20:17:58.809 [info] > git config --get commit.template [335ms]
+2026-10-23 20:17:58.810 [info] > git config --get --local core.virtualfilesystem [361ms]
+2026-10-23 20:17:58.810 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-23 20:17:59.485 [info] > git check-ignore -v -z --stdin [425ms]
+2026-10-23 20:17:59.637 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [155ms]
+2026-10-23 20:17:59.644 [info] > git status -z -uall [169ms]
+2026-10-23 20:17:59.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [240ms]
+2026-10-23 20:17:59.917 [info] > git config --get commit.template [216ms]
+2026-10-23 20:17:59.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [216ms]
+2026-10-23 20:17:59.988 [info] > git check-ignore -v -z --stdin [155ms]
+2026-10-23 20:18:00.082 [info] > git config --get --local branch.main.vscode-merge-base [167ms]
+2026-10-23 20:18:00.082 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-23 20:18:00.149 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [205ms]
+2026-10-23 20:18:00.173 [info] > git status -z -uall [236ms]
+2026-10-23 20:18:00.197 [info] > git ls-files --stage -- index.html [185ms]
+2026-10-23 20:18:00.203 [info] > git show --textconv :index.html [201ms]
+2026-10-23 20:18:00.239 [info] > git reflog main --grep-reflog=branch: Created from *. [150ms]
+2026-10-23 20:18:00.350 [info] > git cat-file -s 4a1770f0acce42fa0cee730b58fc230be6edcc9d [148ms]
+2026-10-23 20:18:00.377 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [131ms]
+2026-10-23 20:18:00.377 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-10-23 20:18:00.377 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-10-23 20:18:00.587 [info] > git merge-base refs/heads/main refs/remotes/origin/main [196ms]
+2026-10-23 20:18:00.593 [info] > git merge-base refs/heads/main refs/remotes/origin/main [209ms]
+2026-10-23 20:18:00.599 [info] > git blame --root --incremental 0f8fea29a4837a7f5d5f7b6481661c15f2985af3 -- index.html [232ms]
+2026-10-23 20:18:00.884 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 0f8fea29a4837a7f5d5f7b6481661c15f2985af3...refs/remotes/origin/main -- [285ms]
+2026-10-23 20:18:00.885 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 0f8fea29a4837a7f5d5f7b6481661c15f2985af3...refs/remotes/origin/main -- [292ms]
+2026-10-23 20:18:00.910 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [262ms]
+2026-10-23 20:18:01.029 [info] > git config --get commit.template [146ms]
+2026-10-23 20:18:01.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [141ms]
+2026-10-23 20:18:01.233 [info] > git status -z -uall [148ms]
+2026-10-23 20:18:01.248 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [158ms]
+2026-10-23 20:18:02.579 [info] > git merge-base main origin/main [113ms]
+2026-10-23 20:18:09.578 [info] > git add -A -- . [128ms]
+2026-10-23 20:18:09.811 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty [227ms]
+2026-10-23 20:18:09.928 [info] > git config --get commit.template [111ms]
+2026-10-23 20:18:10.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [144ms]
+2026-10-23 20:18:10.088 [info] > git config --get commit.template [154ms]
+2026-10-23 20:18:10.240 [info] > git status -z -uall [146ms]
+2026-10-23 20:18:10.243 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [143ms]
+2026-10-23 20:18:10.486 [info] > git blame --root --incremental a25651b2035cec9103fa876f79f87c1c7759835e -- index.html [227ms]
+2026-10-23 20:18:10.489 [info] > git merge-base refs/heads/main refs/remotes/origin/main [223ms]
+2026-10-23 20:18:10.521 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [217ms]
+2026-10-23 20:18:10.525 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [240ms]
+2026-10-23 20:18:10.534 [info] > git config --get commit.template [239ms]
+2026-10-23 20:18:10.681 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 0f8fea29a4837a7f5d5f7b6481661c15f2985af3...refs/remotes/origin/main -- [185ms]
+2026-10-23 20:18:10.745 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [199ms]
+2026-10-23 20:18:10.755 [info] > git merge-base main origin/main [202ms]
+2026-10-23 20:18:10.758 [info] > git status -z -uall [218ms]
+2026-10-23 20:18:10.795 [info] > git config --get --local remote.origin.url [173ms]
+2026-10-23 20:18:10.999 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z a25651b2035cec9103fa876f79f87c1c7759835e -- [195ms]
+2026-10-23 20:18:11.165 [info] > git ls-files --stage -- index.html [168ms]
+2026-10-23 20:18:11.310 [info] > git cat-file -s 4a1770f0acce42fa0cee730b58fc230be6edcc9d [138ms]
+2026-10-23 20:18:11.458 [info] > git show --textconv :index.html [140ms]
+2026-10-23 20:18:13.767 [info] > git log --oneline --cherry main...main@{upstream} -- [158ms]
+2026-10-23 20:18:15.265 [info] > git ls-files --stage -- index.html [112ms]
+2026-10-23 20:18:15.382 [info] > git cat-file -s 4a1770f0acce42fa0cee730b58fc230be6edcc9d [112ms]
+2026-10-23 20:18:15.498 [info] > git show --textconv :index.html [110ms]
+2026-10-23 20:18:15.838 [info] > git pull --tags origin main [2064ms]
+2026-10-23 20:18:15.838 [info] From https://github.com/Sgod32/git-demo
+ * branch            main       -> FETCH_HEAD
+2026-10-23 20:18:17.884 [info] > git push origin main:main [2040ms]
+2026-10-23 20:18:17.884 [info]       0 [main] sh (14996) C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\usr\bin\sh.exe: *** fatal error - couldn't create signal pipe, Win32 error 5
+      0 [main] sh (28300) C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\usr\bin\sh.exe: *** fatal error - couldn't create signal pipe, Win32 error 5
 error: unable to read askpass response from 'd:\huoyin\vscode\f6cfa2ea24\resources\app\extensions\git\dist\askpass.sh'
-      0 [main] bash (3500) C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\usr\bin\bash.exe: *** fatal error - couldn't create signal pipe, Win32 error 5
+      0 [main] bash (12384) C:\Users\Lenovo\AppData\Local\Programs\GitForWindows\usr\bin\bash.exe: *** fatal error - couldn't create signal pipe, Win32 error 5
 error: failed to execute prompt script (exit code 66)
 fatal: could not read Username for 'https://github.com': No such file or directory
-2026-10-23 19:35:20.150 [info] > git config --get commit.template [133ms]
-2026-10-23 19:35:20.163 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [139ms]
-2026-10-23 19:35:20.318 [info] > git status -z -uall [150ms]
-2026-10-23 19:35:20.331 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [155ms]
+2026-10-23 20:18:18.028 [info] > git config --get commit.template [137ms]
+2026-10-23 20:18:18.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [163ms]
+2026-10-23 20:18:18.214 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [143ms]
+2026-10-23 20:18:18.216 [info] > git status -z -uall [149ms]
+2026-10-23 20:18:56.815 [info] > git ls-files --stage -- index.html [132ms]
+2026-10-23 20:18:56.972 [info] > git cat-file -s 4a1770f0acce42fa0cee730b58fc230be6edcc9d [151ms]
+2026-10-23 20:18:57.110 [info] > git show --textconv :index.html [117ms]
